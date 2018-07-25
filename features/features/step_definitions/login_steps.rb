@@ -16,6 +16,7 @@ Então("vejo meu painel de atividades") do
 end
 
 Então("devo ver a mensagem {string}") do |mensagem_alerta|
+    sleep 1
     expect(@login.alert.text).to eql mensagem_alerta
 end
 

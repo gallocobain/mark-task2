@@ -5,14 +5,14 @@ Funcionalidade: Login
     Sendo um usuário
     Posso logar no sistema com meus dados de acesso previamente cadastrados      
     
-    @login @lougout
+    @login @logout
     Cenário: Login com sucesso
 
-        Quando faço login com "teste@gmail.com" e "123456"
+        Quando faço login com "teste1@gmail.com" e "123456"
         Então sou atenticado com sucesso
         E vejo meu painel de atividades
     
-    @login_exc
+    @login_exc 
     Esquema do Cenário: Tentativa de login
 
         Quando faço login com "<email>" e "<senha>"

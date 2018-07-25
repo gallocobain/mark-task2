@@ -9,10 +9,14 @@ end
   
 Quando("faço o Cadastro") do 
     @cadastro.cadastrar(@Dados) 
-   
-    sleep 5
+    
 end
   
 Então("sou redirecionado para o painel de tarefas") do
-    
+    sleep 1
+    expect(@tasks.titulo.text).to eql 'Painel de Atividades'
 end
+
+Então("vejo a mensagem {string}") do |mensagem_alerta|
+    expect(@cadastro.mensagem_alerta.text).to eql mensagem_alerta
+  end
