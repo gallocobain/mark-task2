@@ -14,7 +14,7 @@ Funcionalidade: Cadastrar
 
             E possuo os seguintes dados:
             | Nome  | Gallo9            |
-            | Email | gallo95@teste.com |
+            | Email | galloo5@teste.com |
             | Senha | 123456            |
 
             Quando faço o Cadastro

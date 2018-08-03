@@ -22,7 +22,7 @@ Funcionalidade: Login
         Exemplos:
             | email           | senha   | alerta                                 |
             | tttt@gmail.com  | 123456  | Usuário não cadastrado.                |
-            | teste@gmail.com | 1234566 | Senha inválida.                        |
+            | teste1@gmail.com| 1234566 | Senha inválida.                        |
             |                 | 123456  | Email incorreto ou ausente.            |
             | teste@gmail.com |         | Senha ausente.                         |
             | teste@gmail.com | 12      | Senha deve ter no mínimo 6 caracteres. |

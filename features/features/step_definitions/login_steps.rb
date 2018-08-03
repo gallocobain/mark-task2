@@ -4,7 +4,7 @@ Quando("faço login com {string} e {string}") do |email, senha|
     
     @login.load
     @login.logar(email, senha)
-    
+    @tasks.wait_for_table_body
 end
   
 Então("sou atenticado com sucesso") do

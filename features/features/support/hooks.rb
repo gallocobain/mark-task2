@@ -4,8 +4,8 @@ Before do
 
     @login = LoginPage.new
     @tasks = Tarefapage.new
-    @perfil = PerfilPage.new
     @cadastro = CadastroPage.new
+    @meuPerfil = MeuPerfil.new
 
     page.current_window.resize_to(1280, 800)
 end
