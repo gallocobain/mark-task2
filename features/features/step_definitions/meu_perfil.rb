@@ -24,9 +24,8 @@ end
 #atualizar foto
 
 Dado("que possuo uma foto") do
-    @minha_foto = File.join(Dir.pwd, '/features/features/support/fixtures/apple_web.png')
-
     
+    @minha_foto = File.join(Dir.pwd, 'features/features/support/fixtures/apple_web.png')
     
 end
   

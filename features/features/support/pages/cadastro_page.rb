@@ -2,7 +2,7 @@
 class CadastroPage < SitePrism::Page
 
 
-element :input_name, '#register_name'
+element :input_name, '#register_name' 
 element :input_email, '#register_email'
 element :input_senha, '#register_password'
 element :btn_cadastrar, '.btn-accent'

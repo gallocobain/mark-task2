@@ -8,6 +8,7 @@ require 'faker'
 $env = ENV['BROWSER']
 $headless = ENV['HEADLESS']
 
+
 if $headless
   Capybara.register_driver :selenium do |app|
     Capybara::Poltergeist::Driver.new(app, js_errors: false)
@@ -27,3 +28,4 @@ Capybara.configure do |config|
 end
 
 Capybara.default_max_wait_time = 5
+
